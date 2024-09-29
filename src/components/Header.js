@@ -21,7 +21,7 @@ const Header = ({ genre=null , type, artist=null}) => {
 
                 </div> 
             ):(
-                <div className="flex bg-customGray p-4 mb-10">
+                <div className="flex bg-customGray p-4 mb-10  top-0 w-full left-0">
                         
                     <button onClick={() => navigate(-1)} className="text-white mr-4">
                         <img 

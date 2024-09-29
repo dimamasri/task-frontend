@@ -13,7 +13,7 @@ const ArtistsPicker = ({ genre }) => {
     useEffect(() => {
         const fetchArtists = async () => {
             try {
-                const response = await axios.post('/api/spotify/artists', { genre });
+                const response = await axios.post('http://localhost:5000/api/spotify/artists', { genre });
                 setArtists(response.data);
             } catch (error) {
                 console.error("Error fetching artists:", error.response ? error.response.data : error.message);

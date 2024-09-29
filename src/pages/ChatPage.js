@@ -9,7 +9,9 @@ const ChatPage = () => {
     return (
         <div>
             <Header artist={artist} type="chat" />
-            <Chat />
+            <div className="container relative">
+                <Chat />
+            </div>
         </div>
     );
 };
