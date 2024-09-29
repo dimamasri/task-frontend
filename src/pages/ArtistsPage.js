@@ -8,9 +8,7 @@ const ArtistsPage = () => {
     const { genre } = location.state || {};
     return (
         <div>
-            
             <Header genre={genre} type="artists" />
-            
             <ArtistsPicker genre={genre} />
         </div>
     );

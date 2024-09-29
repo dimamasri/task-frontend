@@ -20,7 +20,10 @@ module.exports = {
       },
       container: {
         center: true,
-        padding: '2rem',
+        padding: {
+          DEFAULT: '2rem',
+          sm: '1rem',
+        },
         screens: {
           sm: '100%',
           md: '720px',

@@ -7,7 +7,7 @@ const ChatPage = () => {
     const location = useLocation();
     const { artist } = location.state || {};
     return (
-        <div>
+        <div className="bg-black">
             <Header artist={artist} type="chat" />
             <div className="container relative">
                 <Chat />
